@@ -23,9 +23,4 @@ public class DemoApplication {
     SpringApplication.run(DemoApplication.class, args);
   }
 
-  @GetMapping("/message")
-  public String displayMessage() {
-    return "Hello Kubernetes!";
-  }
-
 }
